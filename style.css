@@ -1,0 +1,108 @@
+body{
+    background-color: #222222;
+}
+#main{
+    background-color: rgb(21, 21, 21);
+    border-radius: 20px;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+#text{
+    font-family: roboto,sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 60px;
+    left: 7px;
+    width: 270px;
+    background-color: #2f2f2f;
+    border-style:solid ;
+    border-radius:10px;
+    border-color: #505050;
+}
+#text::selection{
+    background-color: rgb(30, 29, 30);
+}
+
+.first button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    position: absolute;
+    top: 140px;
+}
+.second button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    position: absolute;
+    top: 210px;
+}
+.third button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    position: absolute;
+    top: 280px;
+}
+.forth button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    position: absolute;
+    top: 350px;
+}
+.fifth button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    position: absolute;
+    top: 420px;
+}
+
+#AC,#seven,#four,#one,#zero{
+    background-color: RED;
+    left: 10px;
+}
+#ALL,#eight,#five,#two{
+    left: 80px;
+}
+#PER,#nine,#six,#three,#decimal,#ans{
+    left: 150px;
+}
+#div,#mult,#minus,#plus,#ans{
+    left:220px
+}
+#zero{
+    width: 125px;
+}
+#AC,#ALL,#PER{
+    background-color:#9f9f9f ;
+    border-style: none;
+    font-size: 25px;
+    font-family: roboto,sans-serif;
+}
+#AC:hover,#ALL:hover,#PER:hover{
+    background-color: #6e6d6d;
+}
+#div,#mult,#minus,#plus,#ans{
+    background-color: #f69906;
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-family: roboto,sans-serif;
+}
+#div:hover,#mult:hover,#minus:hover,#plus:hover,#ans:hover{
+    background-color: #c27a08;
+}
+#seven,#eight,#nine,#four,#five,#six,#one,#two,#three,#zero,#decimal{
+    background-color: #313131;
+    border: none;
+    color: white;
+    font-family: roboto,sans-serif;
+    font-size: 25px;
+}
+#seven:hover,#eight:hover,#nine:hover,#four:hover,#five:hover,#six:hover,#one:hover,#two:hover,#three:hover,#zero:hover,#decimal:hover{
+    background-color: #2f2e2e;
+}

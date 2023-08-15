@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7426a94b18.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="body">
+    <div id="main">
+        <input type="text"  id="text" oninput="validateNumericInput(this)" >
+        <div class="first">
+            <button id="AC">A/C</button>
+            <button id="ALL" onclick="window.alert('I Dont Know To Code This')">+/-</button>
+            <button id="PER" onclick="window.alert('I Dont Know To Code This')">%</button>
+            <button id="div" onclick="document.getElementById('text').value=document.getElementById('text').value+'÷'"'÷'">&divide;</button>
+        </div>
+
+        <div class="second">
+            <button id="seven" onclick="document.getElementById('text').value=document.getElementById('text').value+7"7">7</button>
+            <button id="eight" onclick="document.getElementById('text').value=document.getElementById('text').value+8"8">8</button>
+            <button id="nine" onclick="document.getElementById('text').value=document.getElementById('text').value+9"9">9</button>
+            <button id="mult" onclick="document.getElementById('text').value=document.getElementById('text').value+'×'">&times;</button>
+        </div>
+        
+        <div class="third">
+            <button id="four" onclick="document.getElementById('text').value=document.getElementById('text').value+4"4">4</button>
+            <button id="five" onclick="document.getElementById('text').value=document.getElementById('text').value+5"5">5</button>
+            <button id="six"  onclick="document.getElementById('text').value=document.getElementById('text').value+6"6">6</button>
+            <button id="minus"onclick="document.getElementById('text').value=document.getElementById('text').value+'-'" >-</button>
+        </div>
+
+        <div class="forth">
+            <button id="one" onclick="document.getElementById('text').value=document.getElementById('text').value+1"1">1</button>
+            <button id="two" onclick="document.getElementById('text').value=document.getElementById('text').value+2"2">2</button>
+            <button id="three" onclick="document.getElementById('text').value=document.getElementById('text').value+3"3">3</button>
+            <button id="plus" onclick="document.getElementById('text').value=document.getElementById('text').value+'+'">&plus;</button>
+        </div>
+
+        <div class="fifth">
+            <button id="zero" onclick="document.getElementById('text').value=document.getElementById('text').value+0"0">0</button>
+            <button id="decimal" onclick="document.getElementById('text').value=document.getElementById('text').value+'.'" >.</button>
+            <button id="ans">=</button>
+        </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
